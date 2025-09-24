@@ -218,6 +218,14 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: '280d3fa952d54cf792de866314569d9a'
+                        key: {
+                            name: 'x_snc_vehicle_se_1_vehicle'
+                            element: 'vehicle_tag'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: '2a7234a1bb984ac68de3d470bdde1342'
                         key: {
                             name: 'x_snc_vehicle_se_1_vehicle'
@@ -503,6 +511,15 @@ declare global {
                         id: '76d4a4579a5a487bb8978f6f50b3460b'
                         key: {
                             name: 'x_snc_vehicle_se_1_vehicle'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '76ec477a9eb34223bf14228637328b55'
+                        key: {
+                            name: 'x_snc_vehicle_se_1_vehicle'
+                            element: 'vehicle_tag'
+                            language: 'en'
                         }
                     },
                     {
