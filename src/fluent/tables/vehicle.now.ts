@@ -86,6 +86,10 @@ export const x_snc_vehicle_se_1_vehicle = Table({
         assigned_to: ReferenceColumn({
             label: 'Assigned To',
             referenceTable: 'sys_user'
+        }),
+        last_inspected_by: ReferenceColumn({
+            label: 'Last Inspected By',
+            referenceTable: 'sys_user'
         })
     },
     display: 'name'

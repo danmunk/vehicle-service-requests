@@ -5,6 +5,10 @@ declare global {
         namespace Internal {
             interface Keys extends KeysRegistry {
                 explicit: {
+                    '6089527f2b883210c77ef2324291bf70': {
+                        table: 'sys_scope_privilege'
+                        id: '6089527f2b883210c77ef2324291bf70'
+                    }
                     bom_json: {
                         table: 'sys_module'
                         id: 'faf973d798a34eeea19f99df2c171d54'
@@ -251,6 +255,14 @@ declare global {
                             name: 'x_snc_vehicle_se_1_vehicle'
                             element: 'vehicle_type'
                             value: 'motorcycle'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '3b531f3aff91429786d65a7d70a02d62'
+                        key: {
+                            name: 'x_snc_vehicle_se_1_vehicle'
+                            element: 'last_inspected_by'
                         }
                     },
                     {
@@ -866,6 +878,15 @@ declare global {
                         key: {
                             name: 'x_snc_vehicle_se_1_vehicle'
                             element: 'last_service_date'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'cb5acfa8277744a7ba538928ac729b76'
+                        key: {
+                            name: 'x_snc_vehicle_se_1_vehicle'
+                            element: 'last_inspected_by'
+                            language: 'en'
                         }
                     },
                     {
