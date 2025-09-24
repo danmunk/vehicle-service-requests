@@ -1,0 +1,5 @@
+import '@servicenow/sdk/global'
+import './tables/vehicle.now'
+import './tables/service-request.now'
+import './roles/vehicle-roles.now'
+import './acls/vehicle-acls.now'

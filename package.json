@@ -1,0 +1,18 @@
+{
+    "name": "x-snc-vehicle-se-1",
+    "version": "1.0.0",
+    "description": "[BUILD AGENT GENERATED]:  A comprehensive application for tracking and managing vehicle service requests, maintenance schedules, and service history",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk install",
+        "transform": "now-sdk transform",
+        "types": "now-sdk dependencies"
+    },
+    "devDependencies": {
+        "@servicenow/sdk": "4.0.0",
+        "@servicenow/glide": "26.0.1",
+        "eslint": "8.50.0",
+        "@servicenow/eslint-plugin-sdk-app-plugin": "4.0.0"
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "scope": "x_snc_vehicle_se_1",
+  "scopeId": "e4f5923b2b883210c77ef2324291bf90",
+  "name": "Vehicle Se 1",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
