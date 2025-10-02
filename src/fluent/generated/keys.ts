@@ -13,6 +13,10 @@ declare global {
                         table: 'sys_app_application'
                         id: '66afdbd22b50f610fb33ff03b191bf05'
                     }
+                    b4efdfd22b50f610fb33ff03b191bfee: {
+                        table: 'sys_app_module'
+                        id: 'b4efdfd22b50f610fb33ff03b191bfee'
+                    }
                     bom_json: {
                         table: 'sys_module'
                         id: 'faf973d798a34eeea19f99df2c171d54'
@@ -149,6 +153,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_index'
+                        id: '18b5083872c8420bb0a4d67a84bf69c4'
+                        key: {
+                            logical_table_name: 'x_snc_vehicle_se_1_vehicle'
+                            col_name_string: 'assigned_to'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '1a920146e14f474b8ac4af32dea9c73d'
                         key: {
@@ -201,6 +213,14 @@ declare global {
                                     name: 'x_snc_vehicle_se_1.vehicle_admin'
                                 }
                             }
+                        }
+                    },
+                    {
+                        table: 'sys_index'
+                        id: '2696d82712154bfd8a3cd06aa1057213'
+                        key: {
+                            logical_table_name: 'x_snc_vehicle_se_1_vehicle'
+                            col_name_string: 'department'
                         }
                     },
                     {
@@ -296,6 +316,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_index'
+                        id: '3f947a60952c4d73b254ecb9f09580a1'
+                        key: {
+                            logical_table_name: 'x_snc_vehicle_se_1_service_request'
+                            col_name_string: 'requested_by'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '4045728cd4fe4c2e9ecbec6321e2808b'
                         key: {
@@ -373,6 +401,15 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: '54742ffd7da44d5d8866bbbf4cb3199c'
+                        key: {
+                            name: 'x_snc_vehicle_se_1_vehicle'
+                            element: 'model_detail'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: '54b73eab1241414e9f593f024a6f9061'
                         key: {
                             name: 'x_snc_vehicle_se_1_vehicle'
@@ -391,6 +428,14 @@ declare global {
                                     name: 'x_snc_vehicle_se_1.vehicle_manager'
                                 }
                             }
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '5c80b7a91173487ca8a66bd9b26be2ca'
+                        key: {
+                            name: 'x_snc_vehicle_se_1_vehicle'
+                            element: 'model_detail'
                         }
                     },
                     {
@@ -531,6 +576,22 @@ declare global {
                         id: '7a0e9d7b8e824a68a72550866c15f47c'
                         key: {
                             name: 'x_snc_vehicle_se_1_service_request'
+                        }
+                    },
+                    {
+                        table: 'sys_index'
+                        id: '7a87502dd9d6498593e43bf215093a3b'
+                        key: {
+                            logical_table_name: 'x_snc_vehicle_se_1_service_request'
+                            col_name_string: 'vehicle'
+                        }
+                    },
+                    {
+                        table: 'sys_index'
+                        id: '7bb012aa9cd44964a103810fea76ae30'
+                        key: {
+                            logical_table_name: 'x_snc_vehicle_se_1_service_request'
+                            col_name_string: 'assigned_to'
                         }
                     },
                     {
@@ -778,6 +839,14 @@ declare global {
                             name: 'x_snc_vehicle_se_1_vehicle'
                             element: 'vehicle_type'
                             value: 'car'
+                        }
+                    },
+                    {
+                        table: 'sys_index'
+                        id: 'aff73cff950a4826b3d9973223b9f8b9'
+                        key: {
+                            logical_table_name: 'x_snc_vehicle_se_1_vehicle'
+                            col_name_string: 'last_inspected_by'
                         }
                     },
                     {

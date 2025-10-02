@@ -1,6 +1,6 @@
 {
     "name": "x-snc-vehicle-se-1",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "[BUILD AGENT GENERATED]:  A comprehensive application for tracking and managing vehicle service requests, maintenance schedules, and service history",
     "license": "UNLICENSED",
     "scripts": {
