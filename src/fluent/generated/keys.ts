@@ -9,6 +9,10 @@ declare global {
                         table: 'sys_scope_privilege'
                         id: '6089527f2b883210c77ef2324291bf70'
                     }
+                    '66afdbd22b50f610fb33ff03b191bf05': {
+                        table: 'sys_app_application'
+                        id: '66afdbd22b50f610fb33ff03b191bf05'
+                    }
                     bom_json: {
                         table: 'sys_module'
                         id: 'faf973d798a34eeea19f99df2c171d54'
