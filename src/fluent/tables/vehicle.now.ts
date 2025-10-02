@@ -10,8 +10,8 @@ export const x_snc_vehicle_se_1_vehicle = Table({
             maxLength: 100,
             mandatory: true,
         }),
-        vehicle_tag: StringColumn({
-            label: 'Vehicle Tag',
+        vehicle_tag_two: StringColumn({
+            label: 'Vehicle Tag Two',
             maxLength: 150,
             mandatory: true,
         }),
