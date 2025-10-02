@@ -15,6 +15,12 @@ export const x_snc_vehicle_se_1_vehicle = Table({
             maxLength: 150,
             mandatory: true
         }),
+
+        additional_vehicle_tag: StringColumn({
+            label: 'Additional Vehicle Tag',
+            maxLength: 150,
+            mandatory: true
+        }),
         make: StringColumn({
             label: 'Make',
             maxLength: 50,
