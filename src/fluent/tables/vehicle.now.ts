@@ -31,7 +31,7 @@ export const x_snc_vehicle_se_1_vehicle = Table({
             maxLength: 50,
             mandatory: true
         }),
-        model_details: StringColumn({
+        model_details_one: StringColumn({
             label: 'Model Details One',
             maxLength: 50,
             mandatory: true
