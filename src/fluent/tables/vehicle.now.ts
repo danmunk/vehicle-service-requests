@@ -25,6 +25,11 @@ export const x_snc_vehicle_se_1_vehicle = Table({
             maxLength: 50,
             mandatory: true
         }),
+        model_details: StringColumn({
+            label: 'Model Details',
+            maxLength: 50,
+            mandatory: true
+        }),
         year: IntegerColumn({
             label: 'Year',
             mandatory: true
