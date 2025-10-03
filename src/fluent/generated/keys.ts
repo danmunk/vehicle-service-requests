@@ -243,6 +243,7 @@ declare global {
                     {
                         table: 'sys_dictionary'
                         id: '280d3fa952d54cf792de866314569d9a'
+                        deleted: true
                         key: {
                             name: 'x_snc_vehicle_se_1_vehicle'
                             element: 'vehicle_tag'
@@ -402,6 +403,7 @@ declare global {
                     {
                         table: 'sys_documentation'
                         id: '54742ffd7da44d5d8866bbbf4cb3199c'
+                        deleted: true
                         key: {
                             name: 'x_snc_vehicle_se_1_vehicle'
                             element: 'model_detail'
@@ -433,6 +435,7 @@ declare global {
                     {
                         table: 'sys_dictionary'
                         id: '5c80b7a91173487ca8a66bd9b26be2ca'
+                        deleted: true
                         key: {
                             name: 'x_snc_vehicle_se_1_vehicle'
                             element: 'model_detail'
@@ -565,6 +568,7 @@ declare global {
                     {
                         table: 'sys_documentation'
                         id: '76ec477a9eb34223bf14228637328b55'
+                        deleted: true
                         key: {
                             name: 'x_snc_vehicle_se_1_vehicle'
                             element: 'vehicle_tag'
