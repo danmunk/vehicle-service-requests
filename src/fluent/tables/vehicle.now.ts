@@ -15,7 +15,7 @@ export const x_snc_vehicle_se_1_vehicle = Table({
             maxLength: 50,
             mandatory: true,
         }),
-        make_details_lenny1: StringColumn({
+        make_details_lenny11: StringColumn({
             label: 'Make Details',
             maxLength: 50,
             mandatory: true,
