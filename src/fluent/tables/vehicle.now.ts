@@ -15,11 +15,6 @@ export const x_snc_vehicle_se_1_vehicle = Table({
             maxLength: 50,
             mandatory: true,
         }),
-        make_details: StringColumn({
-            label: 'Make Details',
-            maxLength: 50,
-            mandatory: true,
-        }),
         model: StringColumn({
             label: 'Model',
             maxLength: 50,
